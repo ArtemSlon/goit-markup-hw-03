@@ -14,7 +14,7 @@ list-style-type: none;
 .container {
     width: 1158px;
         margin: 0 auto;
-        
+        padding: 0 15px;
 }
 
 img {
@@ -34,8 +34,13 @@ body {
 .header {
 border-bottom: 1px solid #e7e9fc;
 display: flex;
-padding-left: 15px;
-padding-right: 15px;
+padding-top: 24px;
+padding-bottom: 24px;
+
+}
+
+.header-container {
+    display: flex;
 }
 
 .logo {
@@ -58,8 +63,6 @@ color: #2e2f42;
 color: #2e2f42;
 display: flex;
 justify-content: space-between;
-padding-top: 24px;
-padding-bottom: 24px;
 align-items: center;
 }
 
@@ -138,12 +141,12 @@ font-weight: 700;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-       /* !!!!!letter-spacing: 0.04em;!!!!!*/
+       letter-spacing: 0.04em;
         color: #fff;
             background-color: #4d5ae5;
             border-radius: 4px;
                 padding: 16px 32px;
-                width: 169px;
+                min-width: 169px;
                 height: 56px;
                 margin-left: 43%;
 }

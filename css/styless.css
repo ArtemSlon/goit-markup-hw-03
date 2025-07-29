@@ -34,9 +34,6 @@ body {
 .header {
 border-bottom: 1px solid #e7e9fc;
 display: flex;
-padding-top: 24px;
-    padding-bottom: 24px;
-
 }
 
 .header-container {
@@ -52,6 +49,8 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logo .span-logo {
@@ -92,7 +91,7 @@ font-style: normal;
 display: flex;
 }
 
-.address-list {
+.addr-list {
     display: flex;
     gap: 40px;
 }

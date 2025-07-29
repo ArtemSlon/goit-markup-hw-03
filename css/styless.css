@@ -120,7 +120,6 @@ color: #404bbf;
 .first-section {
     background-color: #2e2f42;
     height: 600px;
-    margin-bottom: 120px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -165,7 +164,9 @@ font-weight: 700;
 /* ? */
 
 .second-section {
-   margin-bottom: 120px;
+padding-top: 120px;
+padding-bottom: 120px;
+
 }
 
 .visually-hidden {

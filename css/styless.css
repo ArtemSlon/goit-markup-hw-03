@@ -34,7 +34,7 @@ body {
 .header {
 border-bottom: 1px solid #e7e9fc;
 padding-top: 24px;
-padding-bottom: 24px;
+    padding-bottom: 24px
 }
 
 .header-container {
@@ -78,6 +78,8 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+        padding-bottom: 24px
 }
 
 .header-address {
@@ -95,6 +97,7 @@ display: flex;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+       
 }
 
 .header-link:focus,
